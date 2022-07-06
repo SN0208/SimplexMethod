@@ -4,16 +4,16 @@ using namespace std;
 void introduction()
 {
     cout<<"********Instructions for input********"<<endl<<endl;
-    cout<<"For a problem of type"<<endl<<"-------------------------"<<endl<<"Max : Z = C1X1+C2X2+C3X3...........+CrXr"<<endl<<"where C1,C2,...,Cr are coefficients of variables in objective function"<<endl;
+    cout<<"For a problem of type"<<endl<<"-------------------------"<<endl<<"Max : Z = C1X1+C2X2+C3X3...........+CnXn"<<endl<<"where C1,C2,...,Cn are coefficients of variables in objective function"<<endl;
     cout<<"***Constraints***"<<endl;
-    cout<<"a[1][1]x1+a[1][2]x2+.....+a[1][n]=b[1]"<<endl;
-    cout<<"a[2][1]x1+a[2][2]x2+.....+a[2][n]=b[2]"<<endl;
-    cout<<"|  |   |   |   |   |   |   |   |   |  "<<endl;
-    cout<<"|  |   |   |   |   |   |   |   |   |  "<<endl;
-    cout<<"a[m][1]x1+a[m][2]x2+.....+a[m][n]=b[n]"<<endl<<endl;
+    cout<<"a[1][1]x1+a[1][2]x2+.....+a[1][n]xn=b[1]"<<endl;
+    cout<<"a[2][1]x1+a[2][2]x2+.....+a[2][n]xn=b[2]"<<endl;
+    cout<<"|  |   |   |   |   |   |   |   |   |  | "<<endl;
+    cout<<"|  |   |   |   |   |   |   |   |   |  | "<<endl;
+    cout<<"a[m][1]x1+a[m][2]x2+.....+a[m][n]xn=b[m]"<<endl<<endl;
 
     cout<<"Matrix A is a mxn matrix"<<endl;
-    cout<<"Matrix B is a nx1 column matrix"<<endl;
+    cout<<"Matrix B is a mx1 column matrix"<<endl;
     cout<<"------------------------------------------------------------------------------------------------------"<<endl<<endl;
 }
 

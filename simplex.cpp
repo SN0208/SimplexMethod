@@ -77,7 +77,7 @@ int main()
         T[m][j]=(-1)*(C[j]);
     }
     T[m][n]=0;
-    cout<<endl<<endl<<endl"simplex table "<<table<<" is "<<endl<<endl;
+    cout<<endl<<endl<<endl<<"simplex table "<<table<<" is "<<endl<<endl;
     table=table+1;
     for(i=0;i<m+1;i++)
     {
@@ -197,7 +197,7 @@ int main()
             cout<<"X["<<i+1<<"]="<<X[i]<<endl;
             sum=sum+C[i]*X[i];
         }
-        cout<<endl<<endl"THE MAXIMUM VALUE OF THE LPP IS  "<<sum<<endl;
+        cout<<endl<<endl<<"THE MAXIMUM VALUE OF THE LPP IS  "<<sum<<endl;
         cout<<endl<<endl<<"Press 1 to test again else press 0"<<endl;
         cin>>iteration;
     }
